@@ -30,7 +30,7 @@ jobs:
           COMMIT_HASH: ${{ github.sha }}
       - run: npm run test:ci
       - name: Upload coverage reports to Codecov with GitHub Action
-        uses: codecov/codecov-action@v4
+        uses: codecov/codecov-action@v5
         env:
           fail_ci_if_error: true
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
