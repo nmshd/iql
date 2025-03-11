@@ -3,7 +3,7 @@
     "tasks": [
         {
             "label": "Compile",
-            "command": "npm run build:watch",
+            "command": "npm run build:watch:parser",
             "type": "shell",
             "isBackground": true,
             "presentation": {
