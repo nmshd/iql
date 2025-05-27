@@ -2,7 +2,8 @@ name: Publish
 
 on:
   push:
-    branches: [main]
+    tags:
+      - "*"
 
 jobs:
   run-checks:
@@ -30,4 +31,5 @@ jobs:
       - run: npx enhanced-publish --if-possible --use-preid-as-tag
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          VERSION: ${{ github.ref_name }}
     needs: ["run-checks"]
