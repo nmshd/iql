@@ -65,7 +65,7 @@
         "peggy": "^5.1.0",
         "prettier": "^3.9.4",
         "ts-jest": "^29.4.11",
-        "webpack": "^5.108.3",
+        "webpack": "^5.108.4",
         "webpack-cli": "^7.1.0"
     },
     "publishConfig": {
