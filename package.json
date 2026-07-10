@@ -1,13 +1,13 @@
 {
     "name": "@nmshd/iql",
-    "description": "Identity Query Language - A DSL to filter and query Enmeshed attributes",
+    "description": "Identity Query Language - A DSL to filter and query enmeshed attributes",
     "homepage": "https://enmeshed.eu",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/nmshd/iql.git"
     },
     "license": "MIT",
-    "author": "js-soft GmbH",
+    "author": "j&s-soft AG",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "files": [
