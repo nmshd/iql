@@ -55,7 +55,7 @@
     },
     "devDependencies": {
         "@js-soft/eslint-config-ts": "2.0.10",
-        "@js-soft/license-check": "1.0.14",
+        "@js-soft/license-check": "1.0.15",
         "@types/jest": "30.0.0",
         "@types/lodash": "4.17.25",
         "eslint": "10.10.0",
