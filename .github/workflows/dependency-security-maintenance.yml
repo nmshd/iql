@@ -9,7 +9,7 @@ permissions: {}
 
 jobs:
   npm-audit:
-    uses: js-soft/github-actions/.github/workflows/dependency-security-maintenance.yml@8f1636892c12ce417e7fde8d5d87ff4ccb5bad58 # main
+    uses: js-soft/github-actions/.github/workflows/dependency-security-maintenance.yml@9ec9e34b26144d4ec07604d2c1818dddb2377dab # main
     with:
       reviewers: nmshd/npm-dependency-update-reviewers
     secrets:
